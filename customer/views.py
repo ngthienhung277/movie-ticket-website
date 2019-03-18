@@ -1,10 +1,10 @@
 from django.shortcuts import render
-
+from django.http import HttpResponse
 
 def homepage(request):
     """ Landing page of website (https://www.galaxycine.vn/) """
     # TODO: To be implemented
-    pass
+    return HttpResponse("Homepage")
 
 
 def buy_ticket(request):
